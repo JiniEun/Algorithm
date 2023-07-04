@@ -6,7 +6,7 @@
 
 ![palindromeNumber.png](../../assets/palindromeNumber.png)
 
-### 고려할 점
+### Check List
 - String으로 변환하지 않고 풀기
 
 ### Result
