@@ -2,7 +2,7 @@
 
 ## 09. Palindrome Number
 
-- [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
+- [09. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 
 ![palindromeNumber.png](../../assets/palindromeNumber.png)
 
