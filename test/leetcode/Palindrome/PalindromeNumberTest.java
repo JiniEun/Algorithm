@@ -1,17 +1,27 @@
 package leetcode.Palindrome;
 
-import junit.framework.TestCase;
-import org.junit.Assert;
-import org.junit.Test;
 
-public class PalindromeNumberTest extends TestCase {
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class PalindromeNumberTest {
+
     @Test
-    public void test() {
-        PalindromeNumber solution = new PalindromeNumber();
-        int num1 = 121;
-        Assert.assertTrue(solution.isPalindrome(num1));
+    void testAll() {
+        assertAll(
+            () -> test(121, true),
+            () -> test(-121, false)
+        );
+    }
 
-        int num2 = -121;
-        Assert.assertFalse(solution.isPalindrome(num2));
+    private void test(int num, boolean expected) {
+
+        PalindromeNumber solution = new PalindromeNumber();
+        boolean actual = solution.isPalindrome(num);
+
+        // then
+        assertEquals(expected, actual);
     }
 }
