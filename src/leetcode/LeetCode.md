@@ -11,3 +11,4 @@
 |  03  | [Longest Substring Without Repeating Characters](LongestCharacters%2FLongestSubstringWithoutRepeatingCharacters.md) |  [Java](LongestCharacters%2FLongestCharacters.java)  |   Medium   |
 |  09  |                                   [Palindrome Number](Palindrome%2FPalindrome.md)                                   |      [Java](Palindrome%2FPalindromeNumber.java)      |    Easy    |
 | 1768 |            [1768.MergeStringsAlternately.md](MergeStringsAlternately%2F1768.MergeStringsAlternately.md)             | [Java](MergeStringsAlternately%2FMergeStringsA.java) |    Easy    |
+| 1071 |         [1071.Greatest Common Divisor of Strings.md](GreatestCommonDivisor%2F1071_GreatestCommonDivisor.md)         |       [Java](gcdOfStrings%2FGcdOfStrings.java)       |    Easy    |
